@@ -1,0 +1,9 @@
+button {
+  margin: 50rpx;
+}
+
+.notice {
+  padding: 0 80rpx;
+  font-size: 30rpx;
+  color: #808085;
+}

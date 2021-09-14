@@ -1,0 +1,9 @@
+<view>
+  <inputBox title='输入框标题' placeholder='(输入框占位符)' maxlength='10' bindinputCancel='onInputCancel' bindinputConfirm='onInputConfirm' wx:if='{{ showSinglelineInputbox }}' />
+  <inputBox title='输入框标题' multiline placeholder='(输入框占位符)' maxlength='140' bindinputCancel='onInputCancel' bindinputConfirm='onInputConfirm' wx:if='{{ showMultilineInputbox }}' />
+  <button size='default' type='primary' bindtap='onSinglelineButtonTap'>单行输入框演示</button>
+  <button size='default' type='primary' bindtap='onMultilineButtonTap'>多行输入框演示</button>
+  <view class='notice'>
+    <text>注意:\n多行输入框的 padding 属性在模拟器中可能不生效，真机调试中可正常显示</text>
+  </view>
+</view>

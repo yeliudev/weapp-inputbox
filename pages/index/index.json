@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "inputBox": "/components/inputBox/inputBox"
+  },
+  "disableScroll": true
+}
